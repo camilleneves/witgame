@@ -128,7 +128,7 @@ input.pesquisa text {
 }
 
 .banner img {
-    width: 1520px;
+    width: 100%;
     align-items: center;
 }
 
@@ -673,3 +673,244 @@ footer img {
 
 }
 
+@media screen and (max-width: 1300px) {
+    header {
+        position: relative;
+    }
+
+    header button {
+        width: 50px;
+        display: unset;
+
+        background-color: transparent;
+        border: none;
+
+    }
+
+    header svg {
+        fill: var(--amarelo-witgame);
+    }
+
+    nav.menu {
+        height: 500px;
+        width: 350px;
+
+        padding: 0px 30px;
+
+        flex-direction: column;
+        justify-content: space-around;
+
+        background-color: var(--roxo-escuro);
+
+        position: absolute;
+        right: 0px;
+        top: 165px;
+    }
+
+    #sobre {
+        padding: 100px 15%;
+
+    }
+
+    .container-conteudo {
+        margin-left: 80px;
+    }
+
+
+    .banner img {
+        max-width: 100%;
+        height: auto;
+        /* Evita que as imagens sejam distorcidas */
+
+    }
+
+    .card-servicos a {
+        width: 230px;
+        margin-right: -10px;
+    }
+
+    #contato form {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .container-conteudo {
+        margin-left: -5px;
+    }
+
+    .card-servicos {
+        flex-wrap: wrap;
+
+    }
+
+    .card-servicos{
+        height: 300px;
+        flex-wrap: nowrap;
+        gap: 40px;
+        overflow-x: auto;
+    }
+
+    .card-servicos a {
+        height: 300px;
+        width: 280px;
+        flex-basis: unset;
+
+    }
+
+    .card:first-child {
+        margin-left: 30px;
+    }
+
+    .card:last-child {
+        margin-right: 30px;
+    }
+    .redes-sociais {
+        margin-right: 70px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container-conteudo {
+        margin-left: -100px;
+    }
+    #servicos img {
+        margin-top: 100px;
+        margin-left: -30px;
+        width: 700px;
+    
+    }
+    .card {
+        flex-basis: 45%;
+    }
+
+    .conteudo-projetos {
+        height: 50%;
+        margin-left: -30px;
+        align-items: center;
+    }
+
+    .ecosoy {
+        margin-right: 10px;
+    }
+
+    .galesun {
+        margin-right: 10px;
+    }
+
+
+    footer {
+        height: unset;
+    }
+
+    footer .container-grid {
+        padding: 80px;
+        flex-direction: column;
+    }
+
+    footer img {
+        margin-bottom: 100px;
+        margin-right: 45px;
+    }
+
+    .redes-sociais {
+        align-items: center;
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+
+    .container-conteudo {
+        margin-left: -130px;
+    }
+
+    .conteudo-projetos {
+        height: 50%;
+        margin-left: -100px;
+        align-items: center;
+    }
+
+    .ecosoy {
+        margin-right: 10px;
+    }
+
+    .galesun {
+        margin-right: 10px;
+    }
+
+    #cases,
+    #contato {
+        margin-bottom: unset;
+    }
+
+
+    .campo,
+    .campo-descricao,
+    #contato form button {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .container-grid {
+        width: 90%;
+    }
+
+    header img {
+        width: 200px;
+    }
+
+    nav.menu {
+        width: 100%;
+        display: none;
+    }
+
+    .banner {
+        height: 180px;
+    }
+
+    #sobre p {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+
+    .container-conteudo {
+        margin-top: 100px;
+        margin-right: -100px;
+    }
+
+    .card {
+        height: 400px;
+        width: 280px;
+        flex-basis: unset;
+    }
+
+    .card:first-child {
+        margin-left: 30px;
+    }
+
+    .card:last-child {
+        margin-right: 30px;
+    }
+
+    #contato {
+        padding-top: 150px;
+        background-color: var(--roxo-gamifica);
+        color: white;
+    }
+
+    #contato img {}
+
+    #contato h2 {
+        margin-bottom: 0;
+    }
+
+    #contato form {
+        width: 100%;
+        border-radius: 0;
+    }
+}
