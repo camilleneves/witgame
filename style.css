@@ -744,7 +744,7 @@ footer img {
 
     }
 
-    .card-servicos{
+    .card-servicos {
         height: 300px;
         flex-wrap: nowrap;
         gap: 40px;
@@ -765,21 +765,29 @@ footer img {
     .card:last-child {
         margin-right: 30px;
     }
+
     .redes-sociais {
         margin-right: 70px;
     }
 }
 
 @media screen and (max-width: 800px) {
+    .banner {
+        height: 300px;
+    }
+
+
     .container-conteudo {
         margin-left: -100px;
     }
+
     #servicos img {
         margin-top: 100px;
         margin-left: -30px;
         width: 700px;
-    
+
     }
+
     .card {
         flex-basis: 45%;
     }
@@ -826,6 +834,13 @@ footer img {
         margin-left: -130px;
     }
 
+    #servicos img {
+        margin-top: 100px;
+        margin-left: -18px;
+        width: 600px;
+
+    }
+
     .conteudo-projetos {
         height: 50%;
         margin-left: -100px;
@@ -854,9 +869,35 @@ footer img {
 }
 
 @media screen and (max-width: 520px) {
+    #sobre img {
+        width: 210px;
+        height: 21px;
+        margin-top: -200px;
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+
+    #sobre p {
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .container-conteudo {
+        margin-left: -190px;
+        margin-top: 20px;
+    }
 
     .container-grid {
         width: 90%;
+    }
+
+    #servicos img {
+        margin-top: 80px;
+        margin-left: -45px;
+        width: 550px;
+
     }
 
     header img {
@@ -883,6 +924,7 @@ footer img {
         margin-right: -100px;
     }
 
+
     .card {
         height: 400px;
         width: 280px;
@@ -897,14 +939,41 @@ footer img {
         margin-right: 30px;
     }
 
+    .conteudo-projetos {
+        height: 50%;
+        margin-left: -150px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ecosoy{
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    .galesun {
+        flex-direction: column;
+        margin-right: 10px;
+    }
+
+    .cognitt{
+        margin-right: 30px;
+    }
+
     #contato {
         padding-top: 150px;
         background-color: var(--roxo-gamifica);
         color: white;
     }
 
-    #contato img {}
 
+#contato img{
+    margin-top: -55px;
+    height: 40px;
+    width: 500px;
+    justify-content: center;
+    margin-bottom: 30px;
+}
     #contato h2 {
         margin-bottom: 0;
     }
