@@ -1077,7 +1077,7 @@ footer img {
     .container-visao {
         margin-top: 0px;
         position: relative;
-        top: -180px;
+        top: -200px;
 
         display: flex;
         justify-content: center;
@@ -1087,7 +1087,7 @@ footer img {
     .container-valores {
         margin-top: 0px;
         position: relative;
-        top: -110px;
+        top: -130px;
 
         display: grid;
         align-items: center;
