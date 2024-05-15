@@ -1071,7 +1071,7 @@ footer img {
         margin-top: 100px;
         position: relative;
         top: -260px;
-        margin-left: 215px;
+        margin-left: 200px;
     }
 
     .container-visao {
@@ -1081,7 +1081,7 @@ footer img {
 
         display: flex;
         justify-content: center;
-        margin-left: 205px;
+        margin-left: 195px;
     }
 
     .container-valores {
@@ -1091,13 +1091,19 @@ footer img {
 
         display: grid;
         align-items: center;
-        margin-left: 200px;
+        margin-left: 190px;
     }
 
+
+    #servicos{
+        width: 400px;
+        height: 500px;
+    }
     #servicos img {
         margin-top: 80px;
-        margin-left: -20px;
-        width: 395px;
+        height: 23px;
+        width: 398px;
+        margin-left: 2px;
 
     }
 
@@ -1108,18 +1114,108 @@ footer img {
 
     #contato img {
         margin-top: -55px;
-        height: 30px;
+        height: 33px;
         width: 390px;
         justify-content: center;
         margin-bottom: 30px;
+        margin-left: -10px;
     }
 
-    .card:first-child {
-        margin-left: 70px;
+    
+
+    .card-servicos:last-child {
+        margin-left: 30px;
+        margin-right: 40px;
     }
 
-    .card:last-child {
-        margin-right: 70px;
+} 
+@media screen and (max-width: 320px) {
+
+    #banner {
+        height: 180px;
+    }
+    
+
+    #sobre img {
+        width: 150px;
+        height: 15px;
+        text-align: center;
+        margin-bottom: 100px;
+
+    }
+
+    #sobre p {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: -82px;
+        font-size: 15px;
+    }
+
+    
+    
+    .container-missao {
+        margin-top: 100px;
+        position: relative;
+        top: -220px;
+        margin-left: 180px;
+    }
+
+    .container-visao {
+        margin-top: 0px;
+        position: relative;
+        top: -150px;
+
+        display: flex;
+        justify-content: center;
+        margin-left: 180px;
+    }
+
+    .container-valores {
+        margin-top: 0px;
+        position: relative;
+        top: -80px;
+
+        display: grid;
+        align-items: center;
+        margin-left: 170px;
+    }
+
+
+    #servicos{
+        width: 320px;
+        height: 500px;
+    }
+    #servicos img {
+        margin-top: 80px;
+        height: 15px;
+        width: 318px;
+
+    }
+
+    #projetos img{
+        height: 25px;
+        width: 150px;
+    }
+
+    #contato img {
+        margin-top: -55px;
+        height: 28px;
+        width: 318px;
+        justify-content: center;
+        margin-bottom: 30px;
+        margin-left: -2px;
+    }
+
+    
+
+    .card-servicos:last-child {
+        margin-left: 30px;
+        margin-right: 40px;
+    }
+
+    #projetos img{
+        width: 115px;
+        height: 17px;
     }
 
 } 
