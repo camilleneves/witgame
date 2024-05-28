@@ -67,6 +67,7 @@ header .container-grid {
     font-family: "Rubik";
     color: var(--amarelo-witgame);
     text-decoration: underline transparent;
+    transition: all 0.9s ease;
 }
 
 .menu a:hover {
@@ -75,6 +76,8 @@ header .container-grid {
     border: 2px solid var(--amarelo-witgame);
     padding: 2px 5px;
     border-radius: 10px;
+    transition: opacity 0.9s ease;
+
 }
 
 .menu .search-container {
@@ -109,18 +112,22 @@ input.pesquisa {
     font-family: "Rubik";
     align-items: center;
     outline: none;
-    transition: all 0.3s ease;
+    transition: all 0.10s ease;
+
 
 
 }
 
 input.pesquisa:hover {
     background-color: #FFD951;
+    transition: all 0.9s ease;
+
 }
 
 input.pesquisa text {
     color: #2F1559;
 }
+
 
 .banner {
     background-color: #5726A6;
@@ -175,7 +182,8 @@ input.pesquisa text {
     margin-top: 0px;
     position: relative;
     top: -260px;
-    margin-left: 60px;
+    margin-left: 100px;
+    transition: all 0.9s ease;
 }
 
 .icon,
@@ -198,16 +206,18 @@ input.pesquisa text {
     opacity: 0;
     transition: opacity 0.3s ease;
     margin-top: 15px;
-    margin-left: 55px;
+    margin-left: 15px;
 
-    width: 620;
+    width: 600px;
 }
 
 .container-missao:hover .icon {
+    transition: 0.5s ease;
     opacity: 0;
 }
 
 .container-missao:hover .text {
+    transition: 0.5s ease;
     opacity: 1;
 }
 
@@ -219,7 +229,8 @@ input.pesquisa text {
 
     display: flex;
     justify-content: center;
-    margin-left: 70px;
+    margin-left: 107px;
+    transition: all 0.5s ease;
 }
 
 .icon,
@@ -250,10 +261,12 @@ input.pesquisa text {
 
 .container-visao:hover .icon {
     opacity: 0;
+    transition: 0.5s ease;
 }
 
 .container-visao:hover .text {
     opacity: 1;
+    transition: 0.5s ease;
 }
 
 .container-valores {
@@ -263,7 +276,8 @@ input.pesquisa text {
 
     display: grid;
     align-items: center;
-    margin-left: 80px;
+    margin-left: 120px;
+    transition: all 0.9s ease;
 }
 
 .icon,
@@ -286,16 +300,19 @@ input.pesquisa text {
     opacity: 0;
     transition: opacity 0.3s ease;
     margin-top: 10px;
+    margin-left: 35px;
 
     width: 555px;
 }
 
 .container-valores:hover .icon {
     opacity: 0;
+    transition: 0.5s ease;
 }
 
 .container-valores:hover .text {
     opacity: 1;
+    transition: 0.5s ease;
 }
 
 #servicos {
@@ -348,14 +365,14 @@ input.pesquisa text {
     border: transparent;
     border-radius: 30px;
     background-color: white;
-    transition: all 0.3s ease;
+    transition: all 0.9s ease;
 
 }
 
 
 .card-servicos a:hover {
     background-color: #ffd9518c;
-    transition: opacity 0.3s ease;
+    transition: opacity 0.9s ease;
 
 
 }
@@ -420,12 +437,14 @@ input.pesquisa text {
     border: transparent;
     border-radius: 100%;
     /* Para torná-lo um círculo */
+    transition: all 0.9s ease;
 }
 
 .ecosoy a:hover {
     border: 5px solid var(--amarelo-witgame);
     border-radius: 100%;
     background-color: #FFD951;
+    transition: opacity 0.9s ease;
 }
 
 .galesun {
@@ -448,12 +467,14 @@ input.pesquisa text {
     border: transparent;
     border-radius: 100%;
     /* Para torná-lo um círculo */
+    transition: all 0.9s ease;
 }
 
 .galesun a:hover {
     border: 5px solid var(--amarelo-witgame);
     border-radius: 130px;
     background-color: #FFD951;
+    transition: opacity 0.9s ease;
 }
 
 .cognitt {
@@ -475,12 +496,14 @@ input.pesquisa text {
     border: transparent;
     border-radius: 100%;
     /* Para torná-lo um círculo */
+    transition: all 0.9s ease;
 }
 
 .cognitt a:hover {
     border: 5px solid var(--amarelo-witgame);
     border-radius: 130px;
     background-color: #FFD951;
+    transition: opacity 0.9s ease;
 }
 
 
@@ -611,7 +634,6 @@ input.pesquisa text {
 
     text-transform: uppercase;
     cursor: pointer;
-    transition: background-color 500ms;
 }
 
 
@@ -658,11 +680,13 @@ footer img {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
+    transition: all 0.9s ease;
+
 }
 
 .icones-redes a {
     color: var(--roxo-escuro);
-    transition: all 0.3s ease;
+    transition: all 0.9s ease;
 }
 
 
@@ -670,6 +694,14 @@ footer img {
 .icones-redes a :hover {
     color: #FFD951;
 
+}
+
+.menu-fechado {
+    display: none;
+}
+
+#icone-barras {
+    display: none;
 }
 
 @media screen and (max-width: 1300px) {
