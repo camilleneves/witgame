@@ -54,12 +54,17 @@ onresize = () => {
 function solicitarOrcamento(event) {
     let valorNome = document.getElementById("campo-nome").value
     let valorEmail = document.getElementById("campo-email").value
+    let valorTelefone = document.getElementById("campo-telefone").value
+    let valorServico = document.getElementById("campo-servico").value
     let valorDescricao = document.getElementById("campo-texto").value
+
 
     
     let dadosForm = {
         nome: valorNome, 
         email: valorEmail,
+        telefone: valorTelefone,
+        servico: valorServico,
         descricao: valorDescricao
     }
 
